@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Poker {
   private static final int NUMBER_OF_CARDS = 52;
-  private final static int NUM_OF_PLAYERS = 4;
+  private static final int NUM_OF_PLAYERS = 4;
 
   private static String[] deck = new String[NUMBER_OF_CARDS];
 
@@ -46,11 +46,9 @@ public class Poker {
     int index = 0;
     for (int round=1; round<=5; round++) {
       System.out.println("Round: " + round);
-
       for (int player=1; player<=NUM_OF_PLAYERS; player++) {
         System.out.println("Player " + player + " gets: " + deck[index++]);
       }
-
       System.out.println("====================\n");
     }
   }
