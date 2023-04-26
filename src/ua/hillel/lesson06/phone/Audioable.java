@@ -1,7 +1,11 @@
 package ua.hillel.lesson06.phone;
+
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com
  */
 
-public class Audioable {
+public interface Audioable {
+  void playMusic();
+
+  void playPodcast();
 }
