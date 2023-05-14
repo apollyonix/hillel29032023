@@ -12,8 +12,18 @@ public class Cat {
   private int age;
   private String createDate;
 
-  public void setColor(String color) {
+  public Cat() {
+    System.out.println("Default const");
+  }
+
+  public Cat(String name) {
+    System.out.println("Const with param: " + name);
+    this.name = name;
+  }
+
+  public Cat setColor(String color) {
     this.color = color;
+    return this;
   }
 
   public String getColor() {
@@ -24,21 +34,22 @@ public class Cat {
     return name;
   }
 
-  public void setName(String name) {
+  public Cat setName(String name) {
     this.name = name;
+    return this;
   }
 
   public int getAge() {
     return age;
   }
 
-  public void setAge(int age) {
+  public Cat setAge(int age) {
     if (age < 0) {
       this.age = 1;
     } else {
       this.age = age;
     }
-
+    return this;
   }
 
   @Override

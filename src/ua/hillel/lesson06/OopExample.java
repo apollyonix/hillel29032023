@@ -38,7 +38,8 @@ public class OopExample {
 //    phone.makeCall("1111");
 //    phone.receiveSms("12222", "text");
 //
-//    Filming filming = new Camera();
+    Filming filming = new Camera();
+
 //
 //    Filming filming1 = new AndroidPhone();
   }
