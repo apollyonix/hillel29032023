@@ -1,7 +1,5 @@
 package ua.hillel.lesson04;
 
-import java.util.Arrays;
-
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com
  */

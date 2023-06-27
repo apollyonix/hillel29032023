@@ -2,8 +2,6 @@ package ua.hillel.lesson12;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com

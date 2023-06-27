@@ -1,8 +1,6 @@
 package ua.hillel.lesson09;
 
-import ua.hillel.lesson09.logger.MyLogger;
 import ua.hillel.logger.EnumLogger;
-import ua.hillel.logger.PropLogger;
 
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com

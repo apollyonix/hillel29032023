@@ -1,6 +1,5 @@
 package ua.hillel.lesson11;
 
-import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 

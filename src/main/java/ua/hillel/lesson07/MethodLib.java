@@ -1,11 +1,10 @@
 package ua.hillel.lesson07;
 
 import ua.hillel.lesson06.Cat;
-import ua.hillel.lesson06.phone.Camera;
-import ua.hillel.lesson06.phone.Filming;
-import ua.hillel.lesson06.phone.IPhone;
+ import ua.hillel.lesson06.phone.Filming;
+ import ua.hillel.lesson06.phone.IPhone;
 
-/**
+ /**
  * @author Maxim Karpenko mkarpenko@modeln.com
  */
 

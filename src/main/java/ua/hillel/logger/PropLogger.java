@@ -1,7 +1,5 @@
 package ua.hillel.logger;
 
-import java.time.Year;
-
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com
  */

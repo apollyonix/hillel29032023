@@ -1,7 +1,8 @@
 package ua.hillel.lesson11;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com

@@ -1,7 +1,5 @@
 package ua.hillel.lesson03;
 
-import javax.swing.text.TableView;
-
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com
  */
