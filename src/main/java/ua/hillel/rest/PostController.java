@@ -62,9 +62,14 @@ public class PostController {
     OkHttpClient client = new OkHttpClient();
     Response response = client.newCall(request).execute();
 
-    System.out.println(response.code());
+    //System.out.println(response.code());
 
-    System.out.println(response.body().string());
+    if (response.code() == 200) {
+      throw new RuntimeException("Status code is : " + response.code());
+    }
+
+    //return response.body
+    //System.out.println(response.body().string());
   }
 
   public void createNewPostWithJson(String title, Object body) throws IOException {

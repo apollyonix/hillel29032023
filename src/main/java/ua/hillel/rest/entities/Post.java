@@ -1,5 +1,7 @@
 package ua.hillel.rest.entities;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -12,6 +14,8 @@ public class Post {
 
   private String title;
   private String body;
+
+  private List<Comment> comments = new ArrayList<>();
 
   public int getId() {
     return id;
