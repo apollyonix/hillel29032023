@@ -3,7 +3,7 @@ package ua.hillel.tests.wd.files;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import ua.hillel.tests.wd.login.BaseTest;
+import ua.hillel.tests.wd.BaseTest;
 
 import java.io.File;
 

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import ua.hillel.pages.rozetka.CatalogPage;
 import ua.hillel.pages.rozetka.ItemPage;
 import ua.hillel.pages.rozetka.RozMainPage;
-import ua.hillel.tests.wd.login.BaseTest;
+import ua.hillel.tests.wd.BaseTest;
 
 /**
  * @author Maxim Karpenko mkarpenko@modeln.com

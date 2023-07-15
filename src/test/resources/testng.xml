@@ -3,16 +3,9 @@
 <suite name="Suite1" verbose="1"  parallel="tests">
 
     <test name="Regression1" parallel="classes" thread-count="5">
-        <parameter name="browser" value="ff"></parameter>
+        <parameter name="browser" value="${browser}"></parameter>
         <packages>
-            <package name="ua.hillel.tests.wd.WdTest"/>
-        </packages>
-    </test>
-
-    <test name="Regression1" parallel="classes" thread-count="5">
-        <parameter name="browser" value="chrome"></parameter>
-        <packages>
-            <package name="ua.hillel.tests.wd.WdTest"/>
+            <package name="ua.hillel.tests.wd.login.LoginTestPO"/>
         </packages>
     </test>
 </suite>
