@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 import ua.hillel.pages.MainPage;
+import ua.hillel.tests.listeners.CustomExtentReportListener;
 import ua.hillel.utils.DriverHolder;
 
 import java.io.File;
@@ -19,6 +20,7 @@ import java.util.Map;
  * @author Maxim Karpenko mkarpenko@modeln.com
  */
 
+@Listeners({ CustomExtentReportListener.class})
 public class BaseTest {
   protected WebDriver driver;
 
