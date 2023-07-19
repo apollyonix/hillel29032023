@@ -1,11 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1" verbose="1"  parallel="tests">
-
-    <test name="Regression1" parallel="classes" thread-count="5">
+<suite name="UI Suite" verbose="1"  parallel="false">
+    <test name="UI Test" parallel="false" thread-count="5">
         <parameter name="browser" value="${browser}"></parameter>
-        <packages>
-            <package name="ua.hillel.tests.wd.login.LoginTestPO"/>
-        </packages>
+        <classes>
+            <class name="ua.hillel.tests.wd.login.LoginTestPO"/>
+        </classes>
     </test>
 </suite>

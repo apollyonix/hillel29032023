@@ -14,7 +14,7 @@ public class LoginTestPO extends BaseTest {
   public void loginTest() {
 
     LoginPage loginPage = openApp().openAuthPage()
-        .setUsername("tomsmith11111")
+        .setUsername("tomsmith")
         .setPassword("SuperSecretPassword!")
         .loginWithInvalidCreds();
 
